@@ -53,7 +53,7 @@ new Chart(secondChart, {
       ]
     },
     options: {
-      barThickness: 50,
+      barThickness: 45,
         scales: {
             y: {
                 beginAtZero: true,
