@@ -7,7 +7,7 @@
   <title>Test Page</title>
 </head>
 <body>
-  <div class="dashboard">
+  <section class="dashboard">
     <div class="container">
         <div class="dashboard__head">
           <div class="dashboard__description">
@@ -34,22 +34,22 @@
           </div>
         </div>
         <div class="dashboard__content">
-          <div class="dashboard__items items">
-            <div class="dashboard__item item">
-              <div class="item__head">
-                <h2 class="item__title">
+          <div class="dashboard__widgets widgets">
+            <div class="dashboard__widget widget">
+              <div class="widget__head">
+                <h2 class="widget__title">
                   RLQ
                 </h2>
-                <div class="item__img">
-                  <img src="./images/info-icon.svg" alt="info icon" class="item__info">
+                <div class="widget__img">
+                  <img src="./images/info-icon.svg" alt="info icon" class="widget__info">
                 </div>
               </div>
-              <div class="item__body item__body--rlq">
-                <div class="item__body-description">
-                  <p class="item__body-percent">
+              <div class="widget__body widget__body--rlq">
+                <div class="widget__body-description">
+                  <p class="widget__body-percent">
                     59,47<span>%</span>
                   </p>
-                  <p class="item__body-users">
+                  <p class="widget__body-users">
                     <span>
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1701_122)">
@@ -70,67 +70,67 @@
                 </div>
               </div>
             </div>
-            <div class="dashboard__item item">
-              <div class="item__head">
-                <h2 class="item__title">
+            <div class="dashboard__widget widget">
+              <div class="widget__head">
+                <h2 class="widget__title">
                   KI
                 </h2>
-                <div class="item__img">
-                  <img src="./images/info-icon.svg" alt="info icon" class="item__info">
+                <div class="widget__img">
+                  <img src="./images/info-icon.svg" alt="info icon" class="widget__info">
                 </div>
               </div>
-              <div class="item__body">
+              <div class="widget__body">
                 
-                  <img src="./images/card02-figure.png" alt="chart figure" class="item__body-figure">
-                  <div class="item__body-score">
+                  <img src="./images/card02-figure.png" alt="chart figure" class="widget__body-figure">
+                  <div class="widget__body-score">
                     <p>0</p>
                     <p>100</p>
                   </div>
                
               </div>
             </div>
-            <div class="dashboard__item item">
-              <div class="item__head">
-                <h2 class="item__title">
+            <div class="dashboard__widget widget">
+              <div class="widget__head">
+                <h2 class="widget__title">
                   MZI
                 </h2>
-                <div class="item__img">
-                  <img src="./images/info-icon.svg" alt="info icon" class="item__info">
+                <div class="widget__img">
+                  <img src="./images/info-icon.svg" alt="info icon" class="widget__info">
                 </div>
               </div>
-              <div class="item__body">
-                  <img class="item__body-img" src="./images/card03-figure.png" alt="approvment image">
+              <div class="widget__body">
+                  <img class="widget__body-img" src="./images/card03-figure.png" alt="approvment image">
               </div>
             </div>
-            <div class="dashboard__item item">
-              <div class="item__head">
-                <h2 class="item__title">
+            <div class="dashboard__widget widget">
+              <div class="widget__head">
+                <h2 class="widget__title">S
                   Survey Topics
                 </h2>
               </div>
-              <div class="item__body">
-                <ul class="item__body-list">
-                  <li class="item__body-item">
+              <div class="widget__body">
+                <ul class="widget__body-list">
+                  <li class="widget__body-item">
                     <span>A.</span>
                     <p>Pulnivar iaculis placerat vitae dui</p>
                   </li>
-                  <li class="item__body-item">
+                  <li class="widget__body-item">
                     <span>B.</span>
                     <p>Massa morbi mattis lectus ornare</p>
                   </li>
-                  <li class="item__body-item">
+                  <li class="widget__body-item">
                     <span>C.</span>
                     <p>Diam sem vestibulum purus morbi</p>
                   </li>
-                  <li class="item__body-item">
+                  <li class="widget__body-item">
                     <span>D.</span>
                     <p>Pulnivar iaculis placerat vitae dui</p>
                   </li>
-                  <li class="item__body-item">
+                  <li class="widget__body-item">
                     <span>E.</span>
                     <p>Massa morbi mattis lectus ornare</p>
                   </li>
-                  <li class="item__body-item">
+                  <li class="widget__body-item">
                     <span>F.</span>
                     <p>Diam sem vestibulum purus morbi</p>
                   </li>
@@ -138,39 +138,37 @@
               </div>
             </div>
           </div>
-            <div class="dashboard__charts chart">
-              <div class="dashboard__chart chart">
-                <div class="item__head">
-                  <h2 class="item__title">
-                    Survey Topics Scores
-                  </h2>
-                  <div class="item__img">
-                    <img src="./images/info-icon.svg" alt="info icon" class="item__info">
-                  </div>
-                </div>
-                <div class="item__body chart__body">
-                  <canvas class="chart__table" id="firstChart"></canvas>
+          <div class="dashboard__charts charts">
+            <div class="dashboard__chart chart">
+              <div class="widget__head">
+                <h2 class="widget__title">
+                  Survey Topics Scores
+                </h2>
+                <div class="widget__img">
+                  <img src="./images/info-icon.svg" alt="info icon" class="widget__info">
                 </div>
               </div>
-              <div class="dashboard__chart chart">
-                <div class="item__head">
-                  <h2 class="item__title">
-                    KPs
-                  </h2>
-                  <div class="item__img">
-                    <img src="./images/info-icon.svg" alt="info icon" class="item__info">
-                  </div>
+              <div class="widget__body chart__body">
+                <canvas class="chart__table" id="firstChart"></canvas>
+              </div>
+            </div>
+            <div class="dashboard__chart chart">
+              <div class="widget__head">
+                <h2 class="widget__title">
+                  KPs
+                </h2>
+                <div class="widget__img">
+                  <img src="./images/info-icon.svg" alt="info icon" class="widget__info">
                 </div>
-                <div class="item__body chart__body">
-                  <canvas class="chart__table" id="secondChart"></canvas>
-                </div>
+              </div>
+              <div class="widget__body chart__body">
+                <canvas class="chart__table" id="secondChart"></canvas>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
-  </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
